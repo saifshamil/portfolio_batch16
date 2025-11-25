@@ -1,0 +1,407 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Portfolio</title>
+</head>
+
+<body class="m-0 p-0 box-border bg-white">
+  <div class="w-full">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-sm py-4 px-4 sm:px-8">
+      <div class="max-w-7xl mx-auto flex flex-col lg:flex-row justify-between items-center gap-4">
+        <div class="w-full lg:w-auto">
+          <ul
+            class="flex flex-wrap justify-center lg:justify-start gap-6 sm:gap-8 text-sm sm:text-base font-medium text-gray-700">
+            <li class="hover:text-cyan-500 transition-colors cursor-pointer font-bold text-lg">Payme</li>
+            <li class="hover:text-cyan-500 transition-colors cursor-pointer">Home</li>
+            <li class="hover:text-cyan-500 transition-colors cursor-pointer">About</li>
+            <li class="hover:text-cyan-500 transition-colors cursor-pointer">Testimonials</li>
+            <li class="hover:text-cyan-500 transition-colors cursor-pointer">Contact</li>
+          </ul>
+        </div>
+        <div class="flex gap-4">
+          <button class="hover:text-cyan-500  py-2 transition-colors text-sm sm:text-base font-medium">Sign In</button>
+          <button
+            class="border-2 border-cyan-500 px-4 sm:px-6 py-2 hover:bg-cyan-500 hover:text-white transition-all text-sm sm:text-base rounded">Sign
+            up</button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section
+      class="max-w-7xl mx-auto px-6 py-10 grid lg:grid-cols-2 gap-10 items-center relative bg-no-repeat bg-cover bg-center"
+      style="background-image: url('./images/Header.png'); ">
+      <div class="p-6 rounded-xl">
+        <h1 class="text-5xl lg:text-7xl font-light leading-tight">Providing</h1>
+        <h1 class="text-5xl lg:text-7xl font-light leading-tight">Best</h1>
+        <h1 class="text-5xl lg:text-7xl font-bold text-cyan-500 leading-tight">WEB Services</h1>
+
+
+        <p class="mt-6 text-gray-600 max-w-lg">
+          Letter of on become he tended active enable to. Vicinity relation sensible sociable surprise screened no up
+          as.
+        </p>
+
+
+        <div class="mt-8 flex gap-4">
+          <button class="bg-cyan-500 px-8 py-3 rounded text-white shadow hover:bg-cyan-600 transition">Get
+            Started</button>
+          <button
+            class="border-2 border-cyan-500 px-8 py-3 rounded hover:bg-cyan-500 hover:text-white transition">Explore</button>
+        </div>
+      </div>
+
+
+      <div class="flex relative">
+        <div
+          class="w-[400px] h-full bg-cyan-100 rounded-t-full flex items-center justify-center relative translate-x-16  translate-y-10 ">
+
+          <img src="./images/mypic.png" class="h-full w-full object-cover" />
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Brands Section -->
+    <div class="bg-gray-50 py-8 sm:py-12 mt-10">
+      <img src="./images/brands.png" alt="Brands" class="ml-[350px]">
+    </div>
+
+    <!-- Best Services -->
+    <div class="max-w-7xl mx-auto px-4 sm:px-8 py-16 sm:py-24">
+      <h1 class="text-3xl sm:text-5xl lg:text-7xl text-center font-bold">Best <span
+          class="text-cyan-500">Services</span>
+      </h1>
+      <p class="text-sm sm:text-base lg:text-lg text-center mt-4 sm:mt-6 text-gray-600 max-w-2xl mx-auto px-4">
+        Letter of On become he tended active enable to Vicinity relation sensible Sociable surprise screened no Up as.
+      </p>
+      <div class="flex flex-wrap justify-center gap-6 sm:gap-8 mt-12 sm:mt-16">
+
+        <!-- Card 1 -->
+        <div class="w-full sm:w-[calc(50%-1rem)] h-48 sm:h-64 lg:h-80 translate-y-10
+           from-blue-50 to-blue-100 
+           rounded-tl-[100px] sm:rounded-tl-[150px]
+           flex flex-col items-center justify-center 
+           p-6 border border-gray-200 bg-[url('./images/topLeft.png')] bg-cover bg-center no-repeat">
+        </div>
+
+        <!-- Card 2 -->
+        <div class="w-full sm:w-[calc(50%-1rem)] h-48 sm:h-64 lg:h-80 
+           from-purple-50 to-purple-100 
+           rounded-tr-[100px] sm:rounded-tr-[150px]
+           flex flex-col items-center justify-center 
+           p-6 border border-gray-200 bg-[url('./images/topRight.png')] bg-cover bg-center no-repeat">
+        </div>
+
+        <!-- Card 3 -->
+        <div class="w-full sm:w-[calc(50%-1rem)] h-48 sm:h-64 lg:h-80 translate-y-10
+           from-pink-50 to-pink-100 
+           rounded-bl-[100px] sm:rounded-bl-[150px]
+           flex flex-col items-center justify-center 
+           p-6 border border-gray-200 bg-[url('./images/bottomLeft.png')] bg-cover bg-center no-repeat">
+        </div>
+
+        <!-- Card 4 -->
+        <div class="w-full sm:w-[calc(50%-1rem)] h-48 sm:h-64 lg:h-80 
+           from-green-50 to-green-100 
+           rounded-br-[100px] sm:rounded-br-[150px]
+           flex flex-col items-center justify-center 
+           p-6 border border-gray-200 bg-[url('./images/bottomRight.png')] bg-cover bg-center no-repeat">
+        </div>
+
+      </div>
+
+      <div class="flex justify-center sm:mt-12">
+        <button
+          class="border-2  mt-16 border-cyan-500 px-6 sm:px-8 py-2 sm:py-3 hover:bg-cyan-500 hover:text-white text-cyan-500 transition-all text-sm sm:text-base rounded">Explore
+          All</button>
+      </div>
+    </div>
+
+    <!-- Features -->
+    <div class="bg-gray-50 py-16 sm:py-24">
+      <div class="max-w-7xl mx-auto px-4 sm:px-8">
+        <h1 class="text-3xl sm:text-5xl lg:text-7xl text-center font-bold">Our <span
+            class="text-cyan-500">Features</span>
+        </h1>
+        <p class="text-sm sm:text-base lg:text-lg text-center mt-4 sm:mt-6 text-gray-600 max-w-2xl mx-auto px-4">
+          Letter of on become he tended active enable to. Vicinity relation sensible sociable surprise screened no up
+          as.
+        </p>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8 mt-12 sm:mt-16">
+          <div
+            class="flex flex-col items-center text-center p-6 sm:p-8 bg-white hover:shadow-xl border border-gray-100 transition-all hover:-translate-y-2 rounded-lg">
+            <div class="w-12 h-12 sm:w-16 sm:h-16 bg-cyan-100 rounded-full flex items-center justify-center mb-4">
+              <span class="text-cyan-500 text-2xl">📊</span>
+            </div>
+            <h2 class="text-lg sm:text-xl font-bold mb-3">Work Load</h2>
+            <p class="text-xs sm:text-sm text-gray-600 mb-4">Outward clothes promise at gravity do excited. Sufficient
+              particliar impossible by reasonable oh expression is.</p>
+            <a class="text-cyan-500 hover:underline text-sm sm:text-base font-medium" href="#">Learn More →</a>
+          </div>
+          <div
+            class="flex flex-col items-center text-center p-6 sm:p-8 bg-white hover:shadow-xl border border-gray-100 transition-all hover:-translate-y-2 rounded-lg">
+            <div class="w-12 h-12 sm:w-16 sm:h-16 bg-purple-100 rounded-full flex items-center justify-center mb-4">
+              <span class="text-purple-500 text-2xl">⏱️</span>
+            </div>
+            <h2 class="text-lg sm:text-xl font-bold mb-3">Time Tracking</h2>
+            <p class="text-xs sm:text-sm text-gray-600 mb-4">Outward clothes promise at gravity do excited. Sufficient
+              particliar impossible by reasonable oh expression is.</p>
+            <a class="text-cyan-500 hover:underline text-sm sm:text-base font-medium" href="#">Learn More →</a>
+          </div>
+          <div
+            class="flex flex-col items-center text-center p-6 sm:p-8 bg-white hover:shadow-xl border border-gray-100 transition-all hover:-translate-y-2 rounded-lg">
+            <div class="w-12 h-12 sm:w-16 sm:h-16 bg-pink-100 rounded-full flex items-center justify-center mb-4">
+              <span class="text-pink-500 text-2xl">🤝</span>
+            </div>
+            <h2 class="text-lg sm:text-xl font-bold mb-3">Collaborations</h2>
+            <p class="text-xs sm:text-sm text-gray-600 mb-4">Outward clothes promise at gravity do excited. Sufficient
+              particliar impossible by reasonable oh expression is.</p>
+            <a class="text-cyan-500 hover:underline text-sm sm:text-base font-medium" href="#">Learn More →</a>
+          </div>
+          <div
+            class="flex flex-col items-center text-center p-6 sm:p-8 bg-white hover:shadow-xl border border-gray-100 transition-all hover:-translate-y-2 rounded-lg">
+            <div class="w-12 h-12 sm:w-16 sm:h-16 bg-green-100 rounded-full flex items-center justify-center mb-4">
+              <span class="text-green-500 text-2xl">📈</span>
+            </div>
+            <h2 class="text-lg sm:text-xl font-bold mb-3">Analytics</h2>
+            <p class="text-xs sm:text-sm text-gray-600 mb-4">Outward clothes promise at gravity do excited. Sufficient
+              particliar impossible by reasonable oh expression is.</p>
+            <a class="text-cyan-500 hover:underline text-sm sm:text-base font-medium" href="#">Learn More →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Testimonials -->
+    <div class="max-w-7xl mx-auto px-4 sm:px-8 py-16 sm:py-24">
+      <h1 class="text-3xl sm:text-5xl lg:text-6xl text-center font-bold">What <span class="text-cyan-500">Clients</span>
+        Says</h1>
+      <p class="text-sm sm:text-base text-center mt-4 sm:mt-6 text-gray-600 max-w-2xl mx-auto px-4">
+        Letter of on become he tended active enable to. Vicinity relation sensible sociable surprise screened no up as.
+      </p>
+
+      <div class="grid lg:grid-cols-2 gap-8 sm:gap-12 mt-12 sm:mt-16 items-center">
+        <div class="flex justify-center order-2 lg:order-1">
+          <div
+            class="w-48 h-48 sm:w-64 sm:h-64 lg:w-80 lg:h-80 bg-gradient-to-br from-gray-100 via-gray-300 to-gray-800 rounded-tl-[100px] sm:rounded-tl-[150px] flex items-center justify-center shadow-lg">
+            <img src="./images/FB_IMG.png" alt="">
+          </div>
+        </div>
+        <div
+          class="bg-gray-50 p-6 sm:p-10 lg:p-12 rounded-br-[60px] sm:rounded-br-[100px] shadow-md order-1 lg:order-2 -ml-40">
+          <h2 class="text-xl sm:text-2xl font-bold">Best Developers</h2>
+          <p class="mt-4 text-sm sm:text-base text-gray-600 leading-relaxed">
+            Outward clothes promise at gravity do excited. Sufficient particliar impossible by reasonable oh expression
+            is. Yet preference connection unpleasant yet melancholy but end appearance. And excellence partiality
+            estimating terminated day everything.
+          </p>
+          <div class="flex gap-1 mt-4 text-yellow-400 text-xl sm:text-2xl">
+            ★★★★★
+          </div>
+          <h3 class="mt-4 sm:mt-6 text-lg sm:text-xl font-bold">Robert Johnson</h3>
+          <p class="text-sm text-gray-500">Director at Behance</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Pricing -->
+    <div class="bg-gray-50 py-16 sm:py-24">
+      <div class="max-w-7xl mx-auto px-4 sm:px-8">
+        <h1 class="text-3xl sm:text-5xl lg:text-6xl text-center font-bold">Our <span class="text-cyan-500">Pricing
+            Plan</span></h1>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8 mt-12 sm:mt-16 max-w-5xl mx-auto">
+          <!-- Starter Plan -->
+          <div
+            class="bg-white rounded-2xl p-6 sm:p-8 flex flex-col items-center shadow-lg hover:shadow-2xl transition-all hover:-translate-y-2">
+            <h2 class="text-lg sm:text-xl font-bold text-gray-800">For Starter</h2>
+            <div class="my-6">
+              <span class="text-4xl sm:text-5xl font-bold text-gray-800">$59</span>
+            </div>
+            <ul class="space-y-3 mb-6 text-sm sm:text-base text-gray-600 w-full">
+              <li class="flex items-center gap-2">
+                <span class="text-cyan-500">✓</span> 10 Projects
+              </li>
+              <li class="flex items-center gap-2">
+                <span class="text-cyan-500">✓</span> Basic Support
+              </li>
+              <li class="flex items-center gap-2">
+                <span class="text-cyan-500">✓</span> 5GB Storage
+              </li>
+              <li class="flex items-center gap-2 text-gray-400">
+                <span>✗</span> Priority Support
+              </li>
+            </ul>
+            <button
+              class="border-2 border-cyan-500 px-6 py-3 hover:bg-cyan-500 hover:text-white text-cyan-500 transition-all w-full rounded text-sm sm:text-base font-medium">Request
+              Demo</button>
+          </div>
+
+          <!-- Teams Plan -->
+          <div
+            class="bg-cyan-500 text-white rounded-2xl p-6 sm:p-8 flex flex-col items-center shadow-lg hover:shadow-2xl transition-all hover:-translate-y-2 transform scale-105">
+            <h2 class="text-lg sm:text-xl font-bold">For Teams</h2>
+            <div class="my-6">
+              <span class="text-4xl sm:text-5xl font-bold">$99</span>
+            </div>
+            <ul class="space-y-3 mb-6 text-sm sm:text-base w-full">
+              <li class="flex items-center gap-2">
+                <span>✓</span> Unlimited Projects
+              </li>
+              <li class="flex items-center gap-2">
+                <span>✓</span> Priority Support
+              </li>
+              <li class="flex items-center gap-2">
+                <span>✓</span> 50GB Storage
+              </li>
+              <li class="flex items-center gap-2">
+                <span>✓</span> Advanced Analytics
+              </li>
+            </ul>
+            <button
+              class="bg-white text-cyan-500 px-6 py-3 hover:bg-gray-100 transition-all w-full rounded text-sm sm:text-base font-medium">Get
+              Started</button>
+          </div>
+
+          <!-- Company Plan -->
+          <div
+            class="bg-white rounded-2xl p-6 sm:p-8 flex flex-col items-center shadow-lg hover:shadow-2xl transition-all hover:-translate-y-2">
+            <h2 class="text-lg sm:text-xl font-bold text-gray-800">For Company</h2>
+            <div class="my-6">
+              <span class="text-4xl sm:text-5xl font-bold text-gray-800">Custom</span>
+            </div>
+            <ul class="space-y-3 mb-6 text-sm sm:text-base text-gray-600 w-full">
+              <li class="flex items-center gap-2">
+                <span class="text-cyan-500">✓</span> Everything in Teams
+              </li>
+              <li class="flex items-center gap-2">
+                <span class="text-cyan-500">✓</span> Custom Integration
+              </li>
+              <li class="flex items-center gap-2">
+                <span class="text-cyan-500">✓</span> Unlimited Storage
+              </li>
+              <li class="flex items-center gap-2">
+                <span class="text-cyan-500">✓</span> Dedicated Manager
+              </li>
+            </ul>
+            <button
+              class="border-2 border-cyan-500 px-6 py-3 hover:bg-cyan-500 hover:text-white text-cyan-500 transition-all w-full rounded text-sm sm:text-base font-medium">Contact
+              Us</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FAQs -->
+    <div class="max-w-4xl mx-auto px-4 sm:px-8 py-16 sm:py-24">
+      <h1 class="text-cyan-500 text-center text-3xl sm:text-5xl lg:text-6xl font-bold mb-4">FAQs</h1>
+      <p class="text-sm sm:text-base text-center text-gray-600 mb-12">Frequently asked questions about our services</p>
+
+      <div class="space-y-4 sm:space-y-6">
+        <div class="bg-white shadow-md rounded-xl p-6 sm:p-8 border border-gray-100">
+          <div class="flex items-start gap-4">
+            <span class="text-3xl sm:text-4xl text-cyan-500 font-light">−</span>
+            <div class="flex-1">
+              <h3 class="text-base sm:text-lg font-semibold mb-3">She met humoured sir breeding her. Six curiosity day
+                assurance bed necessary?</h3>
+              <p class="text-sm sm:text-base text-gray-600 leading-relaxed">
+                Relation so in confined smallest children unpacked delicate. Why sir end believe uncivil respect. Always
+                get adieus nature day course for common. My little garret repair to desire he esteem.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="bg-white shadow-md rounded-xl p-6 sm:p-8 hover:shadow-lg transition-shadow cursor-pointer border border-gray-100">
+          <div class="flex items-center gap-4">
+            <span class="text-3xl sm:text-4xl text-gray-400 font-light">+</span>
+            <h3 class="text-base sm:text-lg font-semibold">And excellence partiality estimating terminated day
+              everything?</h3>
+          </div>
+        </div>
+
+        <div
+          class="bg-white shadow-md rounded-xl p-6 sm:p-8 hover:shadow-lg transition-shadow cursor-pointer border border-gray-100">
+          <div class="flex items-center gap-4">
+            <span class="text-3xl sm:text-4xl text-gray-400 font-light">+</span>
+            <h3 class="text-base sm:text-lg font-semibold">Latter person am secure of estate genius at?</h3>
+          </div>
+        </div>
+
+        <div
+          class="bg-white shadow-md rounded-xl p-6 sm:p-8 hover:shadow-lg transition-shadow cursor-pointer border border-gray-100">
+          <div class="flex items-center gap-4">
+            <span class="text-3xl sm:text-4xl text-gray-400 font-light">+</span>
+            <h3 class="text-base sm:text-lg font-semibold">Whatever landlord yourself at by pleasure of children be?
+            </h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CTA Section -->
+    <div class="bg-gradient-to-br from-gray-800 to-gray-900 py-16 sm:py-24 mx-4 sm:mx-8 rounded-3xl my-16">
+      <div class="max-w-4xl mx-auto px-4 sm:px-8 text-center">
+        <h2 class="text-white text-2xl sm:text-4xl lg:text-5xl font-bold leading-tight">
+          People who are<br class="hidden sm:block" /> ready took these Courses!
+        </h2>
+        <button
+          class="mt-8 border-2 border-white px-8 py-3 sm:px-10 sm:py-4 hover:bg-white hover:text-gray-900 text-white transition-all text-sm sm:text-base rounded font-medium">
+          Schedule Demo
+        </button>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12 sm:py-16">
+      <div class="max-w-7xl mx-auto px-4 sm:px-8">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 sm:gap-12">
+          <div>
+            <h2 class="text-2xl sm:text-3xl font-bold mb-4">Payme</h2>
+            <p class="text-sm text-gray-400">
+              Crechterwoord K12 182 DK<br />
+              Alknjkcb, All Rights Reserved
+            </p>
+          </div>
+          <div>
+            <h3 class="text-lg sm:text-xl font-semibold mb-4">Links</h3>
+            <ul class="space-y-2 text-sm text-gray-400">
+              <li><a href="#" class="hover:text-cyan-500 transition-colors">Overons</a></li>
+              <li><a href="#" class="hover:text-cyan-500 transition-colors">Social Media</a></li>
+              <li><a href="#" class="hover:text-cyan-500 transition-colors">Counters</a></li>
+              <li><a href="#" class="hover:text-cyan-500 transition-colors">Contacts</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-lg sm:text-xl font-semibold mb-4">Company</h3>
+            <ul class="space-y-2 text-sm text-gray-400">
+              <li><a href="#" class="hover:text-cyan-500 transition-colors">Terms & Conditions</a></li>
+              <li><a href="#" class="hover:text-cyan-500 transition-colors">Privacy Policy</a></li>
+              <li><a href="#" class="hover:text-cyan-500 transition-colors">Contact</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-lg sm:text-xl font-semibold mb-4">Get in touch</h3>
+            <ul class="space-y-2 text-sm text-gray-400">
+              <li>Crechterwoord K12<br />182 DK Alknjkcb</li>
+              <li>085-132567</li>
+              <li><a href="mailto:info@payme.net" class="hover:text-cyan-500 transition-colors">info@payme.net</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="border-t border-gray-800 mt-12 pt-8 text-center">
+          <p class="text-sm text-gray-400">© 2021 Payme. All rights reserved</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>
